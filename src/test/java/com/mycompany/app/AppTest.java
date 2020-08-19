@@ -39,6 +39,16 @@ public class AppTest
             fail("\"message\" is not \"Hello World!\"");
         }
     }
+    
+    @Test
+    public void testConsolidationRun() {
+        assertTrue(true);
+    }
+
+    @Test
+    public void testImportRun() {
+        assertTrue(false);
+    }
 
     @After
     public void cleanUpStreams() {
