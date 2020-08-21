@@ -39,7 +39,7 @@ public class AppTest
             fail("\"message\" is not \"Hello World!\"");
         }
     }
-    
+
     @Test
     public void testConsolidationRun() {
         assertTrue(true);
@@ -49,6 +49,21 @@ public class AppTest
     public void testImportRun() {
         assertTrue(false);
     }
+
+    @Test
+    public void someTest1() { assertTrue(true); }
+
+    @Test
+    public void someTest2() { assertTrue(true); }
+
+    @Test
+    public void someTest3() { assertTrue(true); }
+
+    @Test
+    public void someTest4() { assertTrue(true); }
+
+    @Test
+    public void someTest5() { assertTrue(true); }
 
     @After
     public void cleanUpStreams() {
