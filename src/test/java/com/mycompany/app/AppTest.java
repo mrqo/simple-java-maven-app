@@ -46,6 +46,11 @@ public class AppTest
     }
 
     @Test
+    public void testCons2Run() {
+        assertTrue(false);
+    }
+
+    @Test
     public void testImportRun() {
         assertTrue(false);
     }
